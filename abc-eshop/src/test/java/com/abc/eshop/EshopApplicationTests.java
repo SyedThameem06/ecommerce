@@ -8,6 +8,8 @@
  */
 package com.abc.eshop;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -22,6 +24,7 @@ public class EshopApplicationTests {
 	
 	@Test
 	public void contectLoad() {
+		assertEquals(0, 0);
 	}
 
 }
