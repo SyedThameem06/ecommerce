@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 import com.abc.eshop.model.DiscountDetails;
 import com.abc.eshop.service.DiscountService;
 
-@Service
 public class DiscountDetailsServiceImpl implements DiscountService {
 
 	private List<DiscountDetails> discountDetails;

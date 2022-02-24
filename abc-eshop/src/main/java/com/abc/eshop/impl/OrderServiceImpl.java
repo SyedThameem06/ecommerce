@@ -34,7 +34,6 @@ import com.abc.eshop.service.ItemService;
 import com.abc.eshop.service.OrderService;
 import com.abc.eshop.util.Constants;
 
-@Service
 public class OrderServiceImpl implements OrderService{
 
 	private static Map<Long, OrderMain> data = new ConcurrentHashMap<>();

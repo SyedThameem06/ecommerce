@@ -8,8 +8,11 @@
  */
 package com.abc.eshop.service;
 
+import org.springframework.stereotype.Service;
+
 import com.abc.eshop.dto.response.ItemResponseDto;
 
+@Service
 public interface ItemService {
 
 	/**

@@ -14,7 +14,6 @@ import com.abc.eshop.service.ItemService;
 import com.abc.eshop.service.MessageByLocaleService;
 import com.abc.eshop.util.Constants;
 
-@Service
 public class ItemServiceImpl implements ItemService{
 
 	@Autowired

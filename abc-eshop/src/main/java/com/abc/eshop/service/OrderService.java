@@ -10,6 +10,8 @@ package com.abc.eshop.service;
 
 import java.text.ParseException;
 
+import org.springframework.stereotype.Service;
+
 import com.abc.eshop.dto.request.CartRequestDto;
 import com.abc.eshop.dto.request.CheckoutRequestDto;
 import com.abc.eshop.dto.response.CartResponseDto;
@@ -18,6 +20,7 @@ import com.abc.eshop.dto.response.FetchCartItemsResponseDto;
 import com.abc.eshop.dto.response.GlobalResponse;
 import com.abc.eshop.exception.GlobalException;
 
+@Service
 public interface OrderService {
 
 	/**
